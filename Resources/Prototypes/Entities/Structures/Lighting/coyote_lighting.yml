@@ -1,0 +1,11 @@
+- type: entity
+  id: badPoweredlight
+  description: "wat."
+  suffix: "bad"
+  parent: Poweredlight
+  components:
+  - type: PointLight
+    radius: 10
+    energy: 2.5
+    softness: 0.9
+    color: "#FFAF38"
